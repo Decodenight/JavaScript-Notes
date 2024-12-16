@@ -1,9 +1,3 @@
-// console.log() is used to print something to the console
-console.log("Hello World!");
-
-// You can also show alerts in the browser
-alert("Hello World!");
-
 // Data Types
 let num = 21; // Number (integer, decimal, negetive, infinity, NaN)
 let str = "String"; // String (Strings can use single or double quotes)
@@ -28,34 +22,4 @@ console.log(typeof null);        // "object"
 console.log(typeof [1,2,3]);     // "object"
 console.log(typeof {name: "John"}); // "object"
 
-// Objects
-let obj = {
-  key: "value",
-  anotherKey: 123,
-  isStudent: true,
-  hobbies: ["reading", "gaming"],
-};
 
-console.log(person.hobbies); // Shows: ["reading", "gaming"]
-
-
-// Switch
-switch (expression) {
-  case value1:
-    // code
-    break;
-  case value2:
-    // code
-    break;
-  default:
-  // code
-}
-
-// Error Handling
-try {
-  // potentially error-prone code
-} catch (error) {
-  // handle error
-} finally {
-  // always executed this code
-}
